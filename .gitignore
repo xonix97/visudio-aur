@@ -1,4 +1,5 @@
 src/
 pkg/
+visudio-linux-x86_64
 visudio-*.pkg.tar.*
 *.pkg.tar.*
