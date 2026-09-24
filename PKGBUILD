@@ -10,7 +10,7 @@ depends=('alsa-lib' 'brotli' 'gcc-libs' 'glibc' 'libx11' 'openssl' 'pipewire' 'w
 optdepends=('libvulkan: Vulkan rendering support' 'vulkan-intel: Intel Vulkan backend' 'vulkan-radeon: AMD Vulkan backend')
 options=('!strip')
 source=("https://visudio.xyz/downloads/visudio-linux-x86_64")
-sha256sums=('93d69265e61299b2cbd32da192f6c15bf9491e2a7994ad5485ea7d78584d4273')
+sha256sums=('8188e75f4c4da73f128a87d421c73f270c4f83096f3c42555e02afca622c1304')
 
 package() {
   install -Dm755 "$srcdir/visudio-linux-x86_64" "$pkgdir/usr/bin/visudio"
