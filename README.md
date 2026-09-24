@@ -2,7 +2,7 @@
 
 AUR package recipe for [Visudio](https://visudio.xyz), the audio-reactive ambient display visualizer.
 
-Visudio is proprietary software, so the package downloads the official signed-by-checksum Linux x64 binary from the project's release CDN rather than rebuilding source.
+Visudio is closed-source proprietary software. This repository contains only the AUR recipe and public package metadata—never the application source. The package downloads the official checksum-pinned Linux x64 binary from the project's release CDN rather than rebuilding source. No open-source licence is granted; see `LICENSE`.
 
 ## Install from the AUR
 

@@ -1,11 +1,38 @@
-Visudio Proprietary Software Notice
-===================================
-
-Visudio is proprietary software distributed as a paid product.
-
-No open-source license is granted. Use, modification, redistribution,
-sublicensing, or resale requires a separately agreed written license from
-the Visudio copyright holder. A valid Visudio purchase license is required
-to activate the desktop visualizer.
+VISUDIO PROPRIETARY SOFTWARE NOTICE
+====================================
 
 Copyright © 2026 Visudio contributors. All rights reserved.
+
+Visudio and its source code, object code, binaries, installers, artwork,
+documentation, branding, and related materials (collectively, the "Software")
+are proprietary and confidential.
+
+No open-source licence or other public licence is granted for the Software.
+The Software is not published as an open-source project. You may use the
+Software only under the terms of the end-user licence agreement presented at
+purchase, in the Visudio Terms of Service, and in any separate written agreement
+signed by the Visudio copyright holder.
+
+Unless expressly authorised in writing, you may not:
+- copy, publish, disclose, upload, or distribute the Software or its source;
+- modify, adapt, translate, create derivative works from, or reverse-engineer
+  the Software, except to the limited extent that applicable law expressly
+  permits despite this restriction;
+- sublicense, sell, rent, lease, resell, or provide the Software as a service;
+- remove, obscure, or alter proprietary notices, licence checks, or attribution;
+- use the Software to create a competing product or competing visualizer.
+
+A valid Visudio purchase licence authorizes installation and use only on the
+hardware device to which that licence is bound. Ownership of the Software is
+never transferred.
+
+THIRD-PARTY COMPONENTS
+----------------------
+
+The Software incorporates third-party components that remain subject to their
+own licences. Those third-party licences are not waived by this notice. The
+authoritative dependency inventory is the Cargo.lock file in the authorized
+source checkout, and each dependency's licence is available from its upstream
+project.
+
+No warranty is provided except as required by applicable consumer law.
