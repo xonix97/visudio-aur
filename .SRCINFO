@@ -1,0 +1,25 @@
+pkgbase = visudio
+	pkgdesc = Audio-reactive ambient display perimeter glow for Linux
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://visudio.xyz
+	arch = x86_64
+	license = LicenseRef-Proprietary
+	depends = alsa-lib
+	depends = brotli
+	depends = gcc-libs
+	depends = glibc
+	depends = libx11
+	depends = openssl
+	depends = pipewire
+	depends = wayland
+	depends = zlib
+	depends = zstd
+	optdepends = libvulkan: Vulkan rendering support
+	optdepends = vulkan-intel: Intel Vulkan backend
+	optdepends = vulkan-radeon: AMD Vulkan backend
+	options = !strip
+	source = https://visudio.xyz/downloads/visudio-linux-x86_64
+	sha256sums = e18de8157951e48dcaad4f543d4b2e41b1c4b41fa9ae162dbfdfc731bf4f91a3
+
+pkgname = visudio

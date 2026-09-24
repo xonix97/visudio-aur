@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Visudio
+GenericName=Audio-Reactive Ambient Visualizer
+Comment=Transforms your music and album artwork into a dynamic ambient glow around your display
+Exec=visudio
+Icon=visudio
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;
+Keywords=audio;visualizer;ambient;glow;music;mpris;pipewire;spectrum;wayland;
+StartupNotify=true
+Actions=Gui;RunVisualizer;
+
+[Desktop Action Gui]
+Name=Open Settings & Licensing
+Exec=visudio --gui
+
+[Desktop Action RunVisualizer]
+Name=Run Visualizer Directly
+Exec=visudio --run-visualizer
